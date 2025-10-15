@@ -17,6 +17,26 @@ public class DNA {
      */
     public static int STRCount(String sequence, String STR) {
 
-        return 0;
+        int highestCount = 0;
+        int subcount = 0;
+        int STRLetter = 0;
+
+        System.out.println(STR);
+
+        for (int i = 0; i < sequence.length(); i++) {
+            if (sequence.charAt(i) == STR.charAt(STRLetter)) {
+                STRLetter++;
+            } else {
+                STRLetter = 0;
+                if (subcount > highestCount)
+                    highestCount = subcount;
+                subcount = 0;
+            }
+            if(STRLetter == STR.length()) {
+                STRLetter = 0;
+                subcount++;
+            }
+        }
+        return highestCount;
     }
 }
