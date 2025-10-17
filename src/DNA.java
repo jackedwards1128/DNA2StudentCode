@@ -27,16 +27,25 @@ public class DNA {
             if (sequence.charAt(i) == STR.charAt(STRLetter)) {
                 STRLetter++;
             } else {
-                STRLetter = 0;
+
                 if (subcount > highestCount)
                     highestCount = subcount;
                 subcount = 0;
+                if (STRLetter > 0) {
+                    i -= STRLetter;
+                }
+                STRLetter = 0;
             }
             if(STRLetter == STR.length()) {
+                // System.out.println("county");
                 STRLetter = 0;
                 subcount++;
             }
         }
+
+        if (subcount > highestCount)
+            highestCount = subcount;
+
         return highestCount;
     }
 }
