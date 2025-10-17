@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Did some initial thinking. Made a rough linear search that did Chromo 22. Had a nice chat with Mr. Blick">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6d822f69-9e3c-4e2b-8ee1-11779bb646bd" name="Changes" comment="Completed functional linear search">
       <change beforePath="$PROJECT_DIR$/WORK_LOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/WORK_LOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DNA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DNA.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,12 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1760550542621</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed functional linear search">
+      <option name="closed" value="true" />
+      <created>1760672482829</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760672482829</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Did some initial thinking. Made a rough linear search that did Chromo 22. Had a nice chat with Mr. Blick" />
-    <option name="LAST_COMMIT_MESSAGE" value="Did some initial thinking. Made a rough linear search that did Chromo 22. Had a nice chat with Mr. Blick" />
+    <MESSAGE value="Completed functional linear search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed functional linear search" />
   </component>
 </project>
